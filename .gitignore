@@ -57,10 +57,6 @@ tmp/
 # Kaggle
 kaggle.json
 
-# Images generated during experiments
-*.png
-*.jpg
-*.jpeg
 
 # Large CSVs (keep only small samples)
 *.csv
