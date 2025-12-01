@@ -1,0 +1,77 @@
+# -------------------------------
+# .gitignore for ML / Kaggle Project
+# -------------------------------
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Models (too large for GitHub)
+*.h5
+*.keras
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.pkl
+
+# TensorFlow checkpoints
+checkpoint
+*.index
+*.data-00000-of-00001
+
+# Data folders
+data/
+datasets/
+raw_data/
+preprocessed_data/
+preprocessed_test_eliva25/
+preprocessed_train/
+temp/
+tmp/
+*.zip
+
+# Kaggle
+kaggle.json
+
+# Images generated during experiments
+*.png
+*.jpg
+*.jpeg
+
+# Large CSVs (keep only small samples)
+*.csv
+!submission_v13.csv
+!data_samples/*.csv
+
+# Cache / artifacts
+.cache/
+*.tfrecord
+*.npz
+*.npy
+
+# VSCode Python environment
+.python-version

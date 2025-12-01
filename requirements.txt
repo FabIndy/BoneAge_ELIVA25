@@ -1,0 +1,12 @@
+# Requirements for BoneAge_ELIVA25 project
+tensorflow==2.10.0
+tensorflow-addons
+numpy
+pandas
+opencv-python
+tqdm
+matplotlib
+scikit-image
+scikit-learn
+albumentations
+
