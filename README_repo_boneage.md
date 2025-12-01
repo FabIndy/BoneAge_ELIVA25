@@ -20,19 +20,12 @@ It is designed as both:
 #  Project Structure
 
 ```
-BoneAge_ELIVA25/
+Boneage/
 │
 ├── models/                     # external model weights (README only)
 │   ├── README.md
 │
-├── notebooks/
-│   ├── 01_segmentation_training.ipynb
-│   ├── 08_segmentation_eliva25.ipynb
-│   ├── 09_preprocessing_test_eliva25_segmented.ipynb
-│   ├── 05_training_v13.ipynb
-│   ├── 10_inference_test_eliva25_v13.ipynb
-│
-├── scripts/                    # optional Python versions of notebooks
+├── notebooks/                  #  11 notebooks
 │
 ├── data_samples/               # 3 anonymized sample images
 │
@@ -177,13 +170,8 @@ pip install -r requirements.txt
 
 Download weights from the links in `models/README.md`.
 
-Run notebooks in the recommended order:
+Run notebooks in the order.
 
-1. `01_segmentation_training.ipynb`  
-2. `02_segmentation_inference_eliva25.ipynb`  
-3. `09_preprocessing_test_eliva25_segmented.ipynb`  
-4. `05_training_v13.ipynb`  
-5. `10_inference_test_eliva25_v13.ipynb`
 
 ---
 
